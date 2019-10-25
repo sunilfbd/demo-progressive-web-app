@@ -1,8 +1,15 @@
-
+// mobile
 @import "core/reset.scss";
 @import "core/baseNarrow.scss";
 @import "header/headerNarrow.scss";
 
+// tablet
+@media only screen and (min-width: 768px) {
+    @import "header/headerTablet.scss";
+}
 
-@import "core/baseWide.scss";
-@import "header/headerWide.scss";
+// desktop
+@media only screen and (min-width: 992px) {
+    @import "core/baseWide.scss";
+    @import "header/headerWide.scss";
+}
